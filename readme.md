@@ -1,6 +1,9 @@
 # Queue
 Package `queue` provides a simple and efficient queue that can hold values of any type.
 
+See GoDoc for futher documentation and examples.
+- https://godoc.org/github.com/brian-yu/go-queue
+
 ## Example Usage
 
 ```go
@@ -38,7 +41,7 @@ go get github.com/brian-yu/go-queue
 $ go test -bench=. -benchtime=10000000x -benchmem
 goos: darwin
 goarch: amd64
-pkg: github.com/brian-yu/queue
+pkg: github.com/brian-yu/go-queue
 BenchmarkPushInt-8          10000000           100 ns/op          82 B/op          0 allocs/op
 BenchmarkPopInt-8           10000000             1.56 ns/op        0 B/op          0 allocs/op
 BenchmarkTopInt-8           10000000             0.36 ns/op        0 B/op          0 allocs/op
