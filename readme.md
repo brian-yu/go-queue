@@ -22,10 +22,11 @@ q.Len()           // 3
 
 t, err := q.Top() // t = 32, err = nil
 
-q.Pop()
-q.Pop()
+q.Pop()           // Pop 32
+q.Pop()           // Pop 12.32
 
 a, err := q.Pop() // a.(author).name = "Brian", a.(author).age = 19, err = nil
+q.Len()           // 0
 
 _, err := q.Pop() // err != nil -- cannot Pop() from empty queue
 
