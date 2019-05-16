@@ -1,4 +1,7 @@
 # Queue
+
+![go report card](https://goreportcard.com/badge/github.com/brian-yu/go-queue)
+
 Package `queue` provides a simple and efficient queue that can hold values of any type.
 
 See GoDoc for futher documentation and examples.
